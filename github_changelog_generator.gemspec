@@ -2,15 +2,14 @@
 
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "github_changelog_generator/version"
 
 Gem::Specification.new do |spec|
-  spec.name               = "github_changelog_generator"
-  spec.version            = GitHubChangelogGenerator::VERSION
+  spec.name               = "px_github_changelog_generator"
+  spec.version            = "0.0.0"
 
   spec.required_ruby_version = ">= 2.5.0"
-  spec.authors = ["Petr Korolev", "Olle Jonsson", "Marco Ferrari"]
-  spec.email = "sky4winder+github_changelog_generator@gmail.com"
+  spec.authors = ["Robert"]
+  spec.email = "rarguello@gmail.com"
 
   spec.summary = "Script that automatically generates a changelog from your tags, issues, labels and pull requests."
   spec.description = "Changelog generation has never been so easy. Fully automate changelog generation - this gem generate changelog file based on tags, issues and merged pull requests from GitHub."
