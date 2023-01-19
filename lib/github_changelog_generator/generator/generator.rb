@@ -27,7 +27,7 @@ module GitHubChangelogGenerator
     attr_accessor :options, :filtered_tags, :tag_section_mapping, :sorted_tags
 
     CREDIT_LINE = <<~CREDIT
-      \\* *This Changelog was automatically generated \
+      \\* *[Test] This Changelog was automatically generated \
       by [github_changelog_generator]\
       (https://github.com/github-changelog-generator/github-changelog-generator)*
     CREDIT
